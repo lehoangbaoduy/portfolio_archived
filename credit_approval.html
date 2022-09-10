@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+
+        <!--Meta Tags-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="vcard, resume, personal, portfolio, cv, card, responsive" />
+        <meta name="keywords" content="vcard, resume, personal, portfolio, cv, card, responsive" />
+        <meta name="author" content="cosmos-themes" />
+
+        <!--Page Title-->
+        <title>Hoang Bao Duy Le</title>
+
+        <!--Plugins Css-->
+        <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+        <!--Main Styles Css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!--Color Css-->
+        <link rel="stylesheet" type="text/css" href="css/tan-color.css" />
+
+        <!--Modernizr Js-->
+        <script src="js/modernizr.js"></script>
+
+        <!--Favicons-->
+        <link rel="shortcut icon" href="img/user_yellow.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        <!--Preloader Start-->
+        <div class="preloader">
+            <div class="loading-text">
+                <span class="loading-text-words" data-preloader="L">L</span>
+                <span class="loading-text-words" data-preloader="O">O</span>
+                <span class="loading-text-words" data-preloader="A">A</span>
+                <span class="loading-text-words" data-preloader="D">D</span>
+                <span class="loading-text-words" data-preloader="I">I</span>
+                <span class="loading-text-words" data-preloader="N">N</span>
+                <span class="loading-text-words" data-preloader="G">G</span>
+            </div>
+        </div>
+        <!--Preloader End-->
+
+
+        <!-- Header Start -->
+        <header>
+            <!-- Logo -->
+            <a class="logo" style="display: flex; justify-content: center; align-items: center;" href="#home"><i class="fas fa-home"></i></a>
+
+            <!-- Back button -->
+            <a class="back-button" href="index.html#/portfolio">
+                <i class="fas fa-reply"></i>
+            </a>
+
+        </header>
+        <!-- Header End -->
+
+
+        <div class="single-blog" data-simplebar>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="mt-80">
+                            <div class="blog-image mb-40">
+                                <img src="img//projects/credit_card/credit_card_single.png" alt="">
+                            </div>
+
+                            <div class="col-lg-10 offset-lg-1">
+                                <ul class="blog-category mb-15">
+                                    <li> <a href="#">Data Science</a> </li>
+                                    <li> <a href="#">Data Analysis</a> </li>
+                                    <li> <a href="#">FICO</a> </li>
+                                </ul>
+
+                                <h2 class="blog-title text-center">Credit Card Approval Prediction</h2>
+
+                                <div class="blog-meta mt-15 mb-30 text-center">
+                                    <span class="date">Sep 2020 - Nov 2020</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-content">
+                                <p>Numerous applications for credit cards are submitted to commercial banks. Many of them are turned down for a variety of reasons, such as excessive credit record queries, high loan amounts, and low income levels. These analyses must be done manually, which is tedious, error-prone, and time-consuming (and time is money!). Fortunately, machine learning can automate this process, and presently, almost every commercial bank does. In this project, we will use machine learning techniques to create an automatic credit card acceptance predictor, much as actual banks use.</p>
+                                <p>The project begins with the dataset being loaded into our Jupyter notebook. The dataset is added to a pandas dataframe called df. The dataset contributor has anonymised the feature names in order to maintain the data's confidentiality. The letters A through P are given feature names. We use df.head() to print the top five rows of the dataset so that we can immediately review it.</p>
+                                <p>In order to forecast if a credit card would be approved, we tested five different categorization models. The graph below provides a summary of the models' train and test accuracy. The Logistic Regression classifier provided us with the highest test data accuracy (88%) in the results. The lack of overfitting and underfitting is indicated by the little discrepancy between train and test accuracy scores.</p>
+                            </div>
+
+                            <div class="form mt-100 mb-80">
+                                <h2 class="form-title mb-40 text-center">Leave a Comment</h2>
+
+                                <form action="#">
+                                    <!--input field-->
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+                                            <div class="input">
+                                                <input class="input-field" id="cf-name" type="text" name="name" placeholder="Your Name"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <!--input field-->
+                                            <div class="input">
+                                                <input class="input-field" id="cf-email" type="text" name="email" placeholder="Your Email"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="input">
+                                                <!--input field-->
+                                                <div class="input">
+                                                    <textarea class="input-field" id="cf-message" name="message" rows="5" placeholder="Message"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <!--submit button-->
+                                            <div class="submit-button text-center">
+                                                <button class="main-btn" id="cf-submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Jquery JS-->
+        <script src="js/jquery.min.js"></script>
+        <!--Plugins JS-->
+        <script src="js/plugins.min.js"></script>
+        <!--Site Main JS-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
